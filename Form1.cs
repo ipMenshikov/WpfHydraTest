@@ -12,12 +12,12 @@ namespace HydraTest
 {
     public partial class Form1 : Form
     {
-        //public Form1(Form parentForm)
-        public Form1()
+        public Form1(Form parentForm)
+        //public Form1()
         {
             InitializeComponent();
-            //this.MdiParent = parentForm;
-            //this.Show();
+            this.MdiParent = parentForm;
+            this.Show();
         }
     }
 }
